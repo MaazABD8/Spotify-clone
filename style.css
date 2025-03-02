@@ -1,0 +1,106 @@
+body{
+    background-color: wheat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.brand img{
+    width: 60px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0 10px;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    padding: 34px;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url(logo/kk2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+#songItem {
+background-color: white;
+color: black;
+display: flex;
+border-radius: 20px;
+justify-content: space-between;
+align-items: center;
+margin: 30px 0;
+height: 40px;
+}
+
+.songItem img{
+    width: 38px;
+    border-radius: 20px;
+    height: 38px;
+    padding: 0 20px;
+}
+
+.timestamp{
+    margin: 0 20px;
+}
+.timestamp i { 
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+
+.icon{
+    margin-top: 20px;
+    padding: 0 50px;
+    font-size: x-large;
+}
+.icon i {
+    cursor: pointer;
+}
